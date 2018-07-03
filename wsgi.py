@@ -48,7 +48,7 @@ def broadcast(msg, prefix=""):  # prefix is for name identification.
 clients = {}
 addresses = {}
 
-HOST = ''
+HOST = 'chat-server-chat-server.193b.starter-ca-central-1.openshiftapps.com/'
 PORT = 8080
 BUFSIZ = 1024
 ADDR = (HOST, PORT)
