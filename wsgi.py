@@ -49,7 +49,7 @@ clients = {}
 addresses = {}
 
 HOST = 'chat-server-chat-server.193b.starter-ca-central-1.openshiftapps.com/'
-PORT = 8080
+PORT = 8081
 BUFSIZ = 1024
 ADDR = (HOST, PORT)
 
