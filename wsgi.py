@@ -48,7 +48,7 @@ def broadcast(msg, prefix=""):  # prefix is for name identification.
 clients = {}
 addresses = {}
 
-HOST = 'chat-server.chat-server.svc'
+HOST = ''
 PORT = 8080
 BUFSIZ = 1024
 ADDR = (HOST, PORT)
