@@ -4,9 +4,7 @@ from threading import Thread
 
 application = Flask(__name__)
 
-@appplication.route('/')
-
-
+@application.route('/')
 def accept_incoming_connections():
     """Sets up handling for incoming clients."""
     while True:
